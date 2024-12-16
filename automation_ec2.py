@@ -40,7 +40,7 @@ check_instance_status(instance_ids_to_start)
 
 def schedule_operations():
 
-    instance_ids = ['i-0123456789abcdef0', 'i-0abcdef1234567890']
+    instance_ids = ['ec2-00000000000000000', 'ec2-00000000000000000']
 
     current_hour = datetime.now().hour
 
